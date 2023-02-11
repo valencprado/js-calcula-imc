@@ -1,0 +1,73 @@
+/* CSS DO MODELO*/
+:root{
+--primary-color:  rgb(90, 212, 243);
+--primary-color-darker:  rgb(20, 127, 153);
+}
+*{
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color:var(--primary-color);
+    font-family: 'Inter', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+.container{
+    max-width: 640px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #FDFDFD;
+    border-radius: 20px;
+}
+
+form input, form label, form button{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+form input{
+    font-size: 24px;
+    height: 30px;
+    padding: 0 20px;
+}
+form input:focus{
+    outline:1px solid var(--primary-color);
+
+}
+form button{
+    border:none;
+    background-color: var(--primary-color);
+    color:white;
+    font-size: 18px;
+    font-weight: bold;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+form button:hover{
+    background-color: var(--primary-color-darker);
+}
+
+/* CSS DO EXERCÍCIO */
+.texto{
+    display: flex;
+    flex-direction: row;
+}
+.texto h3{
+    text-align: justify;
+}
+.texto div{
+    margin: 2em;
+}
+.paragrafo-resultado{
+background-color: var(--primary-color);
+padding: 10px 20px;
+}
+
+.bad{
+    background-color: rgb(255, 8, 0);
+    padding: 10px 20px;
+}
